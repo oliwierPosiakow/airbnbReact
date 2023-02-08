@@ -1,1 +1,46 @@
-/*# sourceMappingURL=cards.css.map */
+.card {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "img" "rating" "desc" "price";
+  font-size: 0.75rem;
+  font-weight: 300;
+  min-width: 110px;
+  width: 176px;
+  max-width: 33%;
+}
+.card p {
+  margin: 0.1em 0;
+}
+.card .card--img {
+  grid-area: img;
+  width: 100%;
+  border-radius: 9px;
+}
+.card .card--star {
+  max-width: 14px;
+  grid-area: rating;
+  margin-right: 0.3em;
+}
+.card .card--rating {
+  display: flex;
+  align-items: center;
+  grid-area: rating;
+  margin-top: 0.5em;
+}
+.card .card--rating span {
+  margin: 0 0.1em;
+}
+.card .card--price span {
+  font-weight: 600;
+}
+.card .card--desc {
+  grid-area: desc;
+}
+.card .card--price {
+  grid-area: price;
+}
+
+.gray {
+  color: #918E9B;
+}/*# sourceMappingURL=cards.css.map */

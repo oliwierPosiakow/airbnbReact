@@ -9,7 +9,7 @@ function App() {
         <Navbar />
         <Hero />
       </header>
-      <section>
+      <section className="cards--section">
         <Card />
       </section>
     </main>
