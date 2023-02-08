@@ -4,8 +4,10 @@
   flex-direction: column;
 }
 .hero img {
-  max-width: 80%;
+  min-width: 250px;
+  width: 80%;
   align-self: center;
+  max-width: 800px;
 }
 .hero .hero--h1 {
   font-size: 2rem;

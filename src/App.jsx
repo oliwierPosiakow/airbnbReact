@@ -1,12 +1,19 @@
 import Navbar from "./Navbar"
 import Hero from "./Hero"
+import Card from "./Card"
 
 function App() {
   return (
-    <header>
-      <Navbar />
-      <Hero />
-    </header>
+    <main>
+      <header>
+        <Navbar />
+        <Hero />
+      </header>
+      <section>
+        <Card />
+      </section>
+    </main>
+    
   )
 }
 
