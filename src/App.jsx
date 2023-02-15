@@ -6,14 +6,9 @@ import data from "./data"
 function App() {
 
   const cardsArr = data.map( cardData => {
-    return <Card 
+    return <Card
       key= {cardData.id}
-      img= {cardData.coverImg}
-      rating={cardData.stats.rating}
-      reviewCount={cardData.stats.reviewCount}
-      country={cardData.location}
-      title={cardData.title}
-      price={cardData.price}
+      {...cardData}
     />
   })
 

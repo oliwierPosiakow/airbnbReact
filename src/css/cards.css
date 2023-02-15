@@ -8,6 +8,16 @@
   min-width: 145px;
   width: 176px;
   max-width: 33%;
+  position: relative;
+}
+.card .card--openSpots {
+  font-size: 0.9em;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  padding: 0.25em 0.5em;
 }
 .card p {
   margin: 0.1em 0;
