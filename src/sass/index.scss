@@ -8,6 +8,10 @@ body{
     margin: 0;
 }
 
-.cards--section{
+.cards--section {
     padding: 0 2em;
-}
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3em;
+    overflow-x: auto;
+  }
